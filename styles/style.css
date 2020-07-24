@@ -1,0 +1,48 @@
+div {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.header {
+    height: 100px;
+}
+
+.wrapper {
+    background-color: #bdd5ea;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+}
+
+.majorPage {
+    height: 200px;
+}
+
+.pageTypeText {
+    margin: 10px;
+}
+
+.majorHeader {
+    font-size: 50px;
+    margin: 10px;
+}
+
+.majorLink {
+    text-decoration: none;
+    color: black;
+}
+
+.subtext {
+    font-style: italic;
+    margin: 10px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+h1,
+h2,
+h3 {
+    color: #495867;
+}
