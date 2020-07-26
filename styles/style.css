@@ -66,8 +66,6 @@ body {
     bottom: 0;
 }
 
-.details {}
-
 .majorLink {
     text-decoration: none;
     color: black;
@@ -93,4 +91,18 @@ h3,
 
 body {
     background-color: #495867;
+}
+
+.resourceText {
+    width: 60%;
+    float: left;
+}
+
+.resourceDetails {
+    padding: 10px;
+}
+
+.resourceImage {
+    width: 500px;
+    height: 500px;
 }
