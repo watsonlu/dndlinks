@@ -3,22 +3,42 @@ div {
     border-width: 1px;
 }
 
+body {
+    background: linear-gradient(0deg, rgba(245, 245, 245, 0.3), rgba(51, 51, 51, 0.3)), url('../images/avernus.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .header {
-    height: 200px;
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 0, 0, 0)), url('../images/dndheader.png');
+    height: 300px;
+    background-image: url('../images/dndheader.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.titletext {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7500);
+    text-align: center;
 }
 
 .wrapper {
     background-color: #bdd5ea;
     margin: auto;
     width: 70%;
-    height: 100%;
+    height: max-content;
+    border: solid 10px;
+    border-radius: 10px;
 }
 
 .majorPage {
-    height: 200px;
+    height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .dm {
@@ -26,15 +46,15 @@ div {
 }
 
 .players {
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 0, 0, 0)), url('../images/dndplayers.jpg');
+    background-image: url('../images/dndplayers.jpg');
 }
 
 .inperson {
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 0, 0, 0)), url('../images/inperson.jpg');
+    background-image: url('../images/inperson.jpg');
 }
 
 .online {
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 0, 0, 0)), url('../images/onlineplay.jpg');
+    background-image: url('../images/onlineplay.jpg');
 }
 
 .pageTypeText {
@@ -43,10 +63,12 @@ div {
 
 .majorHeader {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.500);
+    background-color: rgba(0, 0, 0, 0.7500);
     margin: 0 auto;
     font-size: 50px;
     text-align: center;
+    position: absolute;
+    bottom: 0;
 }
 
 .majorLink {
@@ -63,7 +85,10 @@ h1 {
     margin: 10px;
 }
 
-h2 {
+h1,
+h2,
+h3,
+.subtext {
     color: white;
 }
 
