@@ -21,7 +21,7 @@ body {
 }
 
 .wrapper {
-    background-color: #bdd5ea;
+    background-color: rgba(0, 0, 0, 0.7500);
     margin: auto;
     width: 70%;
     height: max-content;
@@ -93,9 +93,20 @@ body {
     background-color: #495867;
 }
 
+.resource {
+    background-color: rgba(0, 0, 0, 0.500);
+    border-top: solid 10px;
+}
+
 .resourceText {
     width: 60%;
     float: left;
+    color: white;
+    margin: 20px
+}
+
+.resourceTextRight {
+    float: right;
 }
 
 .resourceDetails {
@@ -103,6 +114,6 @@ body {
 }
 
 .resourceImage {
-    width: 500px;
-    height: 500px;
+    width: 35%;
+    height: 400px;
 }
