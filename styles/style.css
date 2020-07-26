@@ -118,3 +118,11 @@ body {
     width: 35%;
     height: 400px;
 }
+
+.navigationItem {
+    float: left;
+}
+
+.clear {
+    clear: right;
+}
