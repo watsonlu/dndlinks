@@ -1,8 +1,3 @@
-div {
-    border-style: solid;
-    border-width: 1px;
-}
-
 body {
     background: linear-gradient(0deg, rgba(245, 245, 245, 0.3), rgba(51, 51, 51, 0.3)), url('../images/avernus.jpg');
     background-size: cover;
@@ -22,7 +17,7 @@ body {
     bottom: 0px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7500);
-    text-align: center;
+    text-align: left;
 }
 
 .wrapper {
@@ -71,6 +66,8 @@ body {
     bottom: 0;
 }
 
+.details {}
+
 .majorLink {
     text-decoration: none;
     color: black;
@@ -82,14 +79,16 @@ body {
 }
 
 h1 {
-    margin: 10px;
+    font-size: 60px;
 }
 
 h1,
 h2,
 h3,
 .subtext {
+    margin: 10px;
     color: white;
+    font-family: 'Carter One', cursive;
 }
 
 body {
