@@ -4,18 +4,37 @@ div {
 }
 
 .header {
-    height: 100px;
+    height: 200px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 0, 0, 0)), url('../images/dndheader.png');
 }
 
 .wrapper {
     background-color: #bdd5ea;
     margin: auto;
-    width: 50%;
+    width: 70%;
     height: 100%;
 }
 
 .majorPage {
     height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dm {
+    background-image: url('../images/mercer.jpg');
+}
+
+.players {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 0, 0, 0)), url('../images/dndplayers.jpg');
+}
+
+.inperson {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 0, 0, 0)), url('../images/inperson.jpg');
+}
+
+.online {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 0, 0, 0)), url('../images/onlineplay.jpg');
 }
 
 .pageTypeText {
@@ -23,8 +42,11 @@ div {
 }
 
 .majorHeader {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.500);
+    margin: 0 auto;
     font-size: 50px;
-    margin: 10px;
+    text-align: center;
 }
 
 .majorLink {
@@ -41,10 +63,8 @@ h1 {
     margin: 10px;
 }
 
-h1,
-h2,
-h3 {
-    color: #495867;
+h2 {
+    color: white;
 }
 
 body {
