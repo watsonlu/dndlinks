@@ -119,10 +119,11 @@ body {
     height: 400px;
 }
 
-.navigationItem {
-    float: left;
+.navigation {
+    width: max-content;
+    margin: 0 auto;
 }
 
-.clear {
-    clear: right;
+.navigationItem {
+    float: left;
 }
