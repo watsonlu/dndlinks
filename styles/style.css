@@ -72,7 +72,7 @@ body {
 }
 
 .subtext {
-    font-style: italic;
+    font-family: 'Roboto', Arial, sans-serif;
     margin: 10px;
 }
 
@@ -86,7 +86,7 @@ h3,
 .subtext {
     margin: 10px;
     color: white;
-    font-family: 'Carter One', cursive;
+    font-family: 'Carter One', serif, cursive;
 }
 
 body {
@@ -126,4 +126,8 @@ body {
 
 .navigationItem {
     float: left;
+}
+
+p {
+    font-family: 'Roboto', Arial, sans-serif;
 }
